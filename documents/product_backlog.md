@@ -1,4 +1,4 @@
-# 爱影网影评系统 产品Backlog
+# 爱影网影评系统 产品特性库
 
 编写产品Backlog需要关注的几个点：
 - ID：统一标识符，只是用来区分故事的递增数字
@@ -8,7 +8,7 @@
 - How to demo：描述这个故事应该怎么进行
 - Notes：解释
 
-### 产品Backlog
+## 产品Backlog
 
 | ID | Name | Imp | Est(man-day) | How to demo | Notes
 | :--: | :--: | :--: | :--: | ----------- | ------------ |
