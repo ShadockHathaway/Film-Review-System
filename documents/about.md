@@ -64,13 +64,3 @@
 **week14-week15**
 
 - 文档优化
-
-
-
-<html>
-  <body>
-    <div>
-<iframe height=498 width=510 src='http://player.youku.com/embed/XNDIxODg0NjkzMg==' frameborder=0 'allowfullscreen'></iframe>
-      </div>
-   </body>
-</html>
