@@ -65,6 +65,10 @@
 
 - 文档优化
 
-<video id="video" controls="" preload="none">
-<source id="mp4" src="http://n.miaopai.com/media/noCPAEYlz6SwEFldiWLIgUdXZ0CmrnsF.htm" type="video/mp4">
-</video>
+<iframe 
+    height=450 
+    width=800 
+    src="https://v.youku.com/v_show/id_XNDIxODg0NjkzMg==.html?spm=a2h0k.11417342.soresults.dposter" 
+    frameborder=0 
+    allowfullscreen>
+</iframe>
