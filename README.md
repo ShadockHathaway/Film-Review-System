@@ -1,7 +1,7 @@
 1. [About（项目概况）](documents/about.md)
 2. [Team profile（团队组建与分工）](documents/team_profile.md)
 3. [Investigation（项目前期调研/竞品分析）](documents/competitor_analyze.md)
-4. [Vision（项目愿景）](documents/Baoleme_Project_Proposal.md)
+4. [Vision（项目愿景）](documents/Project_Proposal.md)
 5. [Product Backlog（产品特性库）](documents/product_backlog.md)
 6. Requirement specification(需求规格说明书)
 	- 6.1 [Usecase Diagram（用例图）](UseCases/README.md#用例图)
