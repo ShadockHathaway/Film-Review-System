@@ -10,15 +10,9 @@
 	- 6.4 [State Model（状态模型）](image/订单状态图.png)
 	- 6.5 [System Sequence Diagram（功能模型）](SSD/README.md)
 	- 6.6 [Supplementary Requirements（补充需求）](documents/Supplementary_Requirements.md)
-7. Design(设计)
-	- 7.1 UI design
-		- [PC端登录注册流程UI设计](UI/login&register)
-		- [小程序移动端全部UI](UI/移动端全部)
-		- [PC端剩余全部UI](UI/PC端除登录注册)
-	- 7.2 Database design
-		- 7.2.1 [用户及权限系统数据库设计](ER)
-		- 7.2.2 [扫码点餐系统数据库设计](ER/ER.png)
-		- 7.2.x [第三方数据评审结果](https://github.com/Baoleme/Dashboard/issues?q=is%3Aissue+is%3Aclosed)
+7. Design(设计说明书)
+	- 7.1 [UI design（界面设计）](documents/UI-Design.md)
+	- 7.2 [Database design（数据库设计）](documents/Database-Design.md)
 	- 7.3 [API 设计](https://baoleme.github.io/API-document/)
 	    - [API说明书](documents/API_Manual.md)
 	- 7.4 [Software Architecture Document](documents/Software_Architecture_Document.md)
