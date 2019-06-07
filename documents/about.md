@@ -1,105 +1,76 @@
-# About
+# 项目
 
-Records of Baoleme development progress.
+爱影网影评系统
 
-## 1、About Project
+## 1、关于项目
 
-### 1）Introduction
+### 1）项目简介
 
-Baoleme是一个扫码点餐结算系统，我们本着让餐饮企业与顾客双赢的理念，专注于实现顾客自助点餐结算的功能，让整个用餐过程流畅快捷、安全可靠。我们将提供最好的服务和最优的用户体验，在同类产品中独树一帜，脱颖而出。
+爱影网是一个影评系统。随着中国电影市场在不断做大做强，电影工业化不断迈上新高度，以及娱乐在人们生活需求中占比的不断增高，使得越来越多的人将走入电影院作为打发闲暇时光的首要选择。而由于一定的时间成本是看电影这一项活动需要去付出的，基于目前人们生活节奏快、闲暇时间有限的情况下，一部电影是否值得去看成为了人们不断去关注的话题。为了满足观众在看电影之前获取相关电影信息的需求，电影信息检索及评介系统随之出现。本系统将分为管理员、用户两个大模块来实现具体功能。管理员拥有对影讯及电影信息的添加、隐藏、修改、查询的权限，删除用户发表的影评的权限，拉黑用户的权限。而用户拥有检索电影信息和影讯的权限，针对电影发布影评并删除自己发布影评的权限，修改个人信息的权限。
 
-### 2）Team Division
+### 2）团队分工
 
-- 项目经理: 周林
-- 客户经理：李晓芸、朱育佩
-- 架构师：朱楚
-- 开发工程师:
-  - 前端：朱楚、舒俊淮、杨小璐
-  - 后端：周长安
-- 测试：李晓芸、朱育佩、舒俊淮、杨小璐
-- DevOps：周长安
+- 项目经理: 陈嘉莹
+- 客户经理：谭晓涵
+- 开发工程师：罗力菁
+- 测试：谭晓涵、陈嘉莹、罗力菁
 
-### 3）Documentation
+### 3）主要制品
 
 - 需求文档
-- API接口文档
-- …（待补充）
+- 架构设计
+- 产品演示视频
 
-## 2、Iterations
+## 2、敏捷开发迭代管理
 
-### Inception
+### Inception0
 
-**week 1(3/22/2018)**
-
-Kickoff meeting in Thursday 
-
-Artifacts:
-
-- 项目策划书初版：从高层面说明愿景、商业模式、项目可行性
-- 需求文档初稿
-- 初步的用例模型：文档+用例图（UML）+流程图
-- 前端技术调研及选型
-- 后端选型
-- 下阶段开发计划
+- 进行系统的竞品调研、市场分析
+- 对系统进行需求分析，确定系统的具体功能模块
+- 确定系统的开发语言
 
 ### Iteration 1
 
-**week2（3/29/2018）**
+**week2-week5**
 
-iteration1 meeting in Thursday
-
-Artifacts:
-
-- 规范了版本控制
-- 明确了支付形式
-- Backlog
+- 确定开发技术采用JSP技术
+- 确定分为管理员、用户两大模块进行开发
 - 明确产品定位
-- 初步完成登录注册功能
-  - 后端数据库的设计、API的设计
-  - 小程序端的客户登录
-  - PC端的商家注册以及登录
-- （其他成果待补充）
 
 ### Iteration 2
 
-- mainly elaboration and design
-- detail in tower
-- artifacts as homework lessonX
+**week6-week8**
+
+- 配置开发环境
+- 完成系统的UI设计
+- 确定用户功能分为影片中心、影讯中心、个人中心三大模块
+- 确定管理员功能分为影片管理、影讯管理、用户管理三大模块
 
 ![tower](../image/tower.jpg)
 
 ### Iteration 3
 
-**week9-week10（before 5/13/2018）**
+**week9-week10**
 
-sprint meeting in 2018/4/28
+- 数据库设计
+- 初步搭建好网站具体框架
+- 完成登录、注册功能
 
-Artifacts:
-
-- 第二轮开发Backlog
-- 所有UI设计
-- 完成backlog确定的四个功能点
+![tower](../image/tower.jpg)
 
 ### Iteration 4
 
-**week17-week18（7/7/2018）**
+**week11-week13**
 
-The development of Iteration 3 last long, so we made a review meeting in 2018/5/25, and carried out integration and testing later.
+- 完成系统所有功能的开发
+- 进行软件测试，修复bug
 
-Artifacts:
-
-- 所有实现源码
-- 测试报告
+![tower](../image/tower.jpg)
 
 ### Iteration 5
 
-**7/7/2018 - 7/8/2018**
+**week14-week15**
 
-Bug fixing and Transition
+- 文档优化
 
-Atifacts:
-
-- 可交付制品
-- 报告和文档
-
-![tower](../image/tower_final2.jpg)
+![tower](../image/tower.jpg)
