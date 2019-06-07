@@ -65,6 +65,8 @@
 
 - 文档优化
 
-<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
-  <source id="mp4" src="http://www.miaopai.com/u/mob_35611282" type="video/mp4">
-</video>
+<iframe
+style="margin-left: 2px; margin-bottom:-5px;"
+frameborder="0" scrolling="0" width="100px" height="20px"
+src="https://ghbtns.com/github-btn.html?user=fandongtongxue&repo=fandongtongxue.github.io&type=star&count=true" >
+</iframe>
