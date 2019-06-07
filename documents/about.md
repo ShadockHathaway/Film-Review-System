@@ -44,8 +44,6 @@
 - 确定用户功能分为影片中心、影讯中心、个人中心三大模块
 - 确定管理员功能分为影片管理、影讯管理、用户管理三大模块
 
-![tower](../image/tower.jpg)
-
 ### Iteration 3
 
 **week9-week10**
@@ -54,8 +52,6 @@
 - 初步搭建好网站具体框架
 - 完成登录、注册功能
 
-![tower](../image/tower.jpg)
-
 ### Iteration 4
 
 **week11-week13**
@@ -63,12 +59,8 @@
 - 完成系统所有功能的开发
 - 进行软件测试，修复bug
 
-![tower](../image/tower.jpg)
-
 ### Iteration 5
 
 **week14-week15**
 
 - 文档优化
-
-![tower](../image/tower.jpg)
