@@ -15,7 +15,7 @@
 	- 7.2 [Database design（数据库设计）](documents/Database-Design.md)
 	- 7.3 [API 设计](https://baoleme.github.io/API-document/)
 	    - [API说明书](documents/API_Manual.md)
-	- 7.4 [Software Architecture Document](documents/Software_Architecture_Document.md)
+	- 7.4 [Architecture design（架构设计）](documents/Architecture-Design.md)
 	- 7.5 Usecase Design
 		- 7.5.1 [点餐用例设计](DetailDesign/make_order.md)
 		- 7.5.2 [商家注册登录用例设计](DetailDesign/register_login.md)
