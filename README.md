@@ -24,7 +24,7 @@
 	- 8.4 [物理架构云上部署 dock-compose.yml 文件编写与使用(容器编排)](documents/8.4.md)
 9. 成品展示
     - 9.1 [用户操作演示短视频](http://player.youku.com/embed/XNDIxOTYwODE4OA==)
-    - 9.2 [用户操作演示短视频](documents/后端api测试报告.md)
+    - 9.2 [管理员操作演示短视频](http://player.youku.com/embed/XNDIxOTYwODc2OA==)
 
 X1. Meet Records
   - [inception meeting（3/22/2018）](https://github.com/Baoleme/Dashboard/blob/master/meet_records/KickOff_Meeting_Record(3-22-2018).md)
