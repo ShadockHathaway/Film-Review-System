@@ -4,18 +4,9 @@
 
 ### 1、JSP规范
 
-JSP文件中，可以包含以下内容：
+JSP文件中，可以包含以下内容：HTML(CSS,JavaScript)、注释(前面有一篇博文已涉及)、Java代码、指令、隐含对象
 
--HTML(CSS,JavaScript)
--注释(前面有一篇博文已涉及)
--Java代码
--指令
--隐含对象
-
--JSP页面中的HTML包括：
--HTML标记
--CSS
--JavaScript
+JSP页面中的HTML包括：HTML标记、CSS、JavaScript
 
 JSP页通过特殊标记“<%”和“%>”使用“脚本元素”，脚本元素通过适当方式嵌入HTML元素标记。Web容器中的JSP引擎能恰如其分地解释特殊标记。在引入脚本元素时，要谨慎从事，以防破坏HTML元素的语法规则。JSP技术的脚本元素分为以下5种。 
 
@@ -42,3 +33,30 @@ Scriptlet标记。Scriptlet标记允许将任何Java代码嵌入“<%”和“%>
 <%= (pi*5*5)/4 %> 
 
 注意，与Scriptlet标记不同，表达式不以“;”结尾。 
+
+### 2、Tag文件规范
+
+
+编写了一个Tag文件会对应生成一个Tag标记,Tag标记的格式为:
+
+<Tag 文件名字/>或
+
+<Tag 文件名字>
+
+         标记体
+
+</Tag 文件名字>
+
+当JSP页面希望向Tag文件传递相应的信息时,可以使用标记体来传递,在Tag文件中通过<jsp:doBody/>来调用标记体
+
+一个Tag文件对应一个Tag标记,那么该目录下有若干个Tag文件就行成了一个库,在JSP页面要调用Tag文件,就要通过taglib指令来引入相应目录下的一个标记库,只有这样JSP页面才能调用相应的Tag文件并动态执行该Tag文件
+
+<%@taglib prefix="前缀" tagdir="自定义标记库的位置"%>
+
+注意:使用前缀可以区别不同标记库下相同名字的标记文件
+
+如:调用/WEB-INF/tags/math/random.tag文件就可以在JSP页面中这样写
+
+<%@taglib prefix="math" tagdir="/WEB-INF/tags/math/"%>来引入标记库
+
+之后可以<math:random/>或者<math:random>标记体</math:random>来调用了并执行相应tag文件了
