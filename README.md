@@ -17,14 +17,8 @@
 	    - [API说明书](documents/API_Manual.md)
 	- 7.4 [Architecture design（架构设计）](documents/Architecture-Design.md)
 	- 7.5 Usecase Design
-		- 7.5.1 [点餐用例设计](DetailDesign/make_order.md)
-		- 7.5.2 [商家注册登录用例设计](DetailDesign/register_login.md)
-		- 7.5.3 [商家管理菜品用例设计](DetailDesign/manage_dish.md)
 8. 生产规范与指南
-	- 8.1 代码规范
-		- [后端代码规范](https://github.com/Baoleme/Server/blob/master/Code%20Style.md)
-		- [餐厅前端代码规范](https://github.com/Baoleme/Client-Restaurant/blob/master/development_specification.md)
-		- [小程序端代码规范](https://github.com/Baoleme/Client-Consumer/blob/master/CODE_STYLE.md)
+	- 8.1 代码规范(documents/coding-rules.md)
 	- 8.2 [REST API 设计规范](https://baoleme.github.io/API-document/)
 	- 8.3 [逻辑架构到应用程序映射指南(BCE)](documents/BCE.md)
 	- 8.4 [物理架构云上部署 dock-compose.yml 文件编写与使用(容器编排)](documents/8.4.md)
