@@ -6,7 +6,7 @@
 6. Requirement specification(需求规格说明书)
 	- 6.1 [Usecase Diagram（用例图）](documents/Usecase-Diagram.md)
 	- 6.2 [Use Cases（用例+活动图）](documents/Use-Cases.md)
-	- 6.3 [Domain Model（领域模型）](image/%E9%A2%86%E5%9F%9F%E6%A8%A1%E5%9E%8B.png)
+	- 6.3 [Domain Model（领域模型）](documents/Domian-Models.md)
 	- 6.4 [State Model（状态模型）](image/订单状态图.png)
 	- 6.5 [System Sequence Diagram（功能模型）](SSD/README.md)
 	- 6.6 [Supplementary Requirements（补充需求）](documents/Supplementary_Requirements.md)
