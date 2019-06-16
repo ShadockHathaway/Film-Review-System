@@ -18,7 +18,7 @@
 	- 7.4 [Architecture design（架构设计）](documents/Architecture-Design.md)
 	- 7.5 Usecase Design
 8. 生产规范与指南
-	- 8.1 代码规范(documents/coding-rules.md)
+	- 8.1 [代码规范](documents/coding-rules.md)
 	- 8.2 [REST API 设计规范](https://baoleme.github.io/API-document/)
 	- 8.3 [逻辑架构到应用程序映射指南(BCE)](documents/BCE.md)
 	- 8.4 [物理架构云上部署 dock-compose.yml 文件编写与使用(容器编排)](documents/8.4.md)
