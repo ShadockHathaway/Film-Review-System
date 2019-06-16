@@ -16,18 +16,15 @@
 	- 7.3 [API 设计](https://baoleme.github.io/API-document/)
 	    - [API说明书](documents/API_Manual.md)
 	- 7.4 [Architecture design（架构设计）](documents/Architecture-Design.md)
-	- 7.5 Usecase Design
+	- 7.5 [Usecase design（用例设计）](documents/Usecase-design.md)
 8. 生产规范与指南
 	- 8.1 [代码规范](documents/coding-rules.md)
 	- 8.2 [REST API 设计规范](https://baoleme.github.io/API-document/)
 	- 8.3 [逻辑架构到应用程序映射指南(BCE)](documents/BCE.md)
 	- 8.4 [物理架构云上部署 dock-compose.yml 文件编写与使用(容器编排)](documents/8.4.md)
-9. 测试
-    - 9.1 [测试方案](documents/测试方案.md)
-    - 9.2 [后端API测试报告](documents/后端api测试报告.md)
-    - 9.3 [综合测试报告](documents/综合测试报告.md)
-    - 9.4 [回归测试报告](documents/回归测试报告.md)
-10. [产品效果演示](documents/display.md)
+9. 成品展示
+    - 9.1 [用户操作演示短视频](http://player.youku.com/embed/XNDIxOTYwODE4OA==)
+    - 9.2 [用户操作演示短视频](documents/后端api测试报告.md)
 
 X1. Meet Records
   - [inception meeting（3/22/2018）](https://github.com/Baoleme/Dashboard/blob/master/meet_records/KickOff_Meeting_Record(3-22-2018).md)
