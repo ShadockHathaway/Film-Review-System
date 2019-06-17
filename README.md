@@ -8,7 +8,7 @@
 	- 6.2 [Use Cases（用例+活动图）](documents/Use-Cases.md)
 	- 6.3 [Domain Model（领域模型）](documents/Domian-Models.md)
 	- 6.4 [State Model（状态模型）](documents/State-Models.md)
-	- 6.5 [System Sequence Diagram（功能模型）](SSD/README.md)
+	- 6.5 [System Sequence Diagram（功能模型）](documents/Sequence-Diagram.md)
 	- 6.6 [Supplementary Requirements（补充需求）](documents/Supplementary_Requirements.md)
 7. Design(设计说明书)
 	- 7.1 [UI design（界面设计）](documents/UI-Design.md)
