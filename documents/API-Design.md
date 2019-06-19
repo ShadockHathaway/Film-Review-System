@@ -51,3 +51,51 @@ bookAbstract="<%=bookAbstract %>"/>
 <%@ variable name-given="backMess" scope="AT_END" %>
 ```
 
+### 2、用户注册
+    
+#### 1）参数说明
+
+| 参数名 | 数据类型 | 描述 | 必需 |
+| ---- | ---- | ---- | ---- |
+| logname | string | 用户名 | 是 |
+| password | string | 密码 | 是 |
+| email | string | 电子邮件 | 是 |
+| realname | string | 用户昵称 | 是 |
+| phone | string | 手机号 | 是 |
+| address | string | 用户个性签名 | 否 |
+
+#### 2）返回值
+
+| HTTP状态码 | 返回格式 | 描述 |
+| ---- | ---- | ---- |
+| 200 | NULL | 成功 |
+| 404 | {message: 'reason'} | 错误的请求 |
+
+#### 3）示例
+
+```js
+<%
+  String logname=request.getParameter("logname");
+  String password=request.getParameter("password");
+  String email=request.getParameter("email");
+  String realname=request.getParameter("realname");
+  String phone=request.getParameter("phone");
+  String address=request.getParameter("address");
+%>
+<register:Register logname="<%=logname %>"
+password="<%=password %>"
+email="<%=email %>"
+realname="<%=realname %>"
+phone="<%=phone %>"
+address="<%=address %>"/>
+<p>返回的消息：<%=backMess %></p>
+```
+```js
+<%@ attribute name="logname" required="true" %>
+<%@ attribute name="password" required="true" %>
+<%@ attribute name="email" required="true" %>
+<%@ attribute name="address" required="true" %>
+<%@ attribute name="realname" required="true" %>
+<%@ attribute name="phone" required="true" %>
+<%@ variable name-given="backMess" scope="AT_END" %>
+```
