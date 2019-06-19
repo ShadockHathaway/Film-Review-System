@@ -1,1 +1,53 @@
+# 爱影网影评系统 设计说明书
+
+## 接口API设计
+
+### 1、管理员录入影片
+    
+#### 1）参数说明
+
+| 参数名 | 数据类型 | 描述 | 必需 |
+| ---- | ---- | ---- | ---- |
+| bookISBN | string | 电影编号 | 是 |
+| bookName | string | 电影名 | 是 |
+| filmDirector | string | 电影导演 | 是 |
+| bookAuthor | string | 电影演员 | 是 |
+| bookPublish | string | 电影制片地区 | 是 |
+| bookAbstract | string | 电影摘要 | 是 |
+
+#### 2）返回值
+
+| HTTP状态码 | 返回格式 | 描述 |
+| ---- | ---- | ---- |
+| 200 | NULL | 成功 |
+| 404 | {message: 'reason'} | 错误的请求 |
+
+#### 3）示例
+
+```js
+<%
+  String bookISBN=request.getParameter("bookISBN");
+  String bookName=request.getParameter("bookName");
+  String filmDirector=request.getParameter("filmDirector");
+  String bookAuthor=request.getParameter("bookAuthor");
+  String bookPublish=request.getParameter("bookPublish");
+  String bookAbstract=request.getParameter("bookAbstract");
+%>
+<film:Film bookISBN="<%=bookISBN %>"
+bookName="<%=bookName %>"
+filmDirector="<%=filmDirector %>"
+bookAuthor="<%=bookAuthor %>"
+bookPublish="<%=bookPublish %>"
+bookAbstract="<%=bookAbstract %>"/>
+<p>返回的消息：<%=backMess %></p>
+```
+```js
+<%@ attribute name="bookISBN" required="true" %>
+<%@ attribute name="bookName" required="true" %>
+<%@ attribute name="filmDirector" required="true" %>
+<%@ attribute name="bookAuthor" required="true" %>
+<%@ attribute name="bookPublish" required="true" %>
+<%@ attribute name="bookAbstract" required="true" %>
+<%@ variable name-given="backMess" scope="AT_END" %>
+```
 
