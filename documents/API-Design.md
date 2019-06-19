@@ -99,3 +99,76 @@ address="<%=address %>"/>
 <%@ attribute name="phone" required="true" %>
 <%@ variable name-given="backMess" scope="AT_END" %>
 ```
+
+### 3、上传图片
+    
+#### 1）参数说明
+
+| 参数名 | 数据类型 | 描述 | 必需 |
+| ---- | ---- | ---- | ---- |
+| oldpic | string | 图片地址 | 是 |
+
+#### 2）返回值
+
+| HTTP状态码 | 返回格式 | 描述 |
+| ---- | ---- | ---- |
+| 200 | NULL | 成功 |
+| 404 | {message: 'reason'} | 错误的请求 |
+
+#### 3）示例
+
+```js
+<form action="../helpUpload" method="post" ENCTYPE="multipart/form-data">
+  <input type=FILE name="fileName" size="40"><br><br>
+  <input type="submit" name="g" value="提交">
+</form>
+```
+```js
+String pic = "C:/Users/admin/eclipse-workspace/tushuguan/image/" + savedFileName;
+String rd = "UPDATE article SET pic = '"+pic+"' WHERE ISBN='"+logname+"'";
+Statement sqla=con.createStatement();
+sqla.executeUpdate(rd);
+rs.updateString(5,pic);
+int index=rs.getRow();
+rs.absolute(index);
+rs.updateRow();
+backNews=fileName+"成功上传"+rd;
+upFile.setFileName(fileName);
+upFile.setSavedFileName(savedFileName);
+upFile.setBackNews(backNews);
+```
+
+### 4、用户登录
+    
+#### 1）参数说明
+
+| 参数名 | 数据类型 | 描述 | 必需 |
+| ---- | ---- | ---- | ---- |
+| logname | string | 用户名 | 是 |
+| password | string | 密码 | 是 |
+
+#### 2）返回值
+
+| HTTP状态码 | 返回格式 | 描述 |
+| ---- | ---- | ---- |
+| 200 | NULL | 成功 |
+| 404 | {message: 'reason'} | 错误的请求 |
+
+#### 3）示例
+
+```js
+<%@ attribute name="logname" required="true" %>
+<%@ attribute name="password" required="true" %>
+<%@ variable name-given="backMess" scope="AT_END" %>
+session.setAttribute("logname",str);
+session.setAttribute("password",password);
+```
+```js
+<% String logname1=(String)session.getAttribute("logname");
+  if (logname1==null) {
+    out.print("<a href=\"Login.jsp\">登录</a>");
+  } else {
+  out.print("<a href=\"ExitLogin.jsp\">退出登录</a>");
+  }
+%>
+```
