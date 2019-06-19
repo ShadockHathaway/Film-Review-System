@@ -172,3 +172,54 @@ session.setAttribute("password",password);
   }
 %>
 ```
+
+### 4、显示影评
+    
+#### 1）参数说明
+
+| 参数名 | 数据类型 | 描述 | 必需 |
+| ---- | ---- | ---- | ---- |
+| mname| string | 发布影评用户昵称 | 是 |
+| mtime | string | 影评发布时间 | 是 |
+| mmessage | string | 影评内容 | 是 |
+| maddress | string | 发布影评用户个性签名 | 是 |
+
+#### 2）返回值
+
+| HTTP状态码 | 返回格式 | 描述 |
+| ---- | ---- | ---- |
+| 200 | NULL | 成功 |
+| 404 | {message: 'reason'} | 错误的请求 |
+
+#### 3）示例
+
+```js
+<br>每页最多显示10条留言
+<showMessage:ShowMessage dataSource="movieboard" 
+tableName="<%=tablename %>" bookAmountlnPage="10" zuduanAmount="4" 
+page="<%=number %>" deletedISBN="<%=deletedISBN %>"/>
+<br>共有<%=pageAllCount %>页，当前显示第<%=showPage %>页
+<br>
+<%=giveResult1 %>
+<link rel="stylesheet" media="screen" href="table.css"/>
+<%
+    int m=showPage.intValue();
+%>
+<a href="template.jsp?page=<%=m-1 %>">上一页</a>
+<a href="template.jsp?page=<%=m+1 %>">下一页</a>
+```
+
+```js
+<%@ attribute name="dataSource" required="true" %>
+<%@ attribute name="deletedISBN" required="true" %>
+<%@ attribute name="bookAmountlnPage" required="true" %>
+<%@ attribute name="page" required="true" %>
+<%@ attribute name="zuduanAmount" required="true" %>
+<%@ variable name-given="showPage" variable-class="java.lang.Integer" scope="AT_END" %>
+<%@ variable name-given="pageAllCount" variable-class="java.lang.Integer" scope="AT_END" %>
+<%@ variable name-given="giveResult1" variable-class="java.lang.StringBuffer" scope="AT_END" %>
+presentPageResult.append("<h1>"+mname+"</h1>");
+presentPageResult.append("<small>"+mtime+"</small>");
+presentPageResult.append("<br><small id=\"sss\">"+maddress+"</small>");
+presentPageResult.append("<p>"+mmessage+"</p>");
+```
