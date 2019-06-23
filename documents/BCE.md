@@ -36,10 +36,50 @@
 　　　|____LookArticle.jsp <br>
 　　　　　　|____ShowArticleByPage.tag <br>
 　　　　　　|____ShowArticle.jsp <br>
-　　　　　　|____FindArticle.jsp
+　　　　　　|____FindArticle.jsp <br>
 |____usercenter <br>
 　　　|____Center.jsp <br>
 　　　　　　|____LookPurchase.jsp <br>
 　　　　　　|____LookMessage.jsp <br>
 　　　　　　|____ModifyRegister.jsp <br>
 　　　　　　|____ModifyPassword.jsp <br>
+
+#### 2）管理员端
+
+|____admin <br>
+　　　|____admin.jsp <br>
+|____managemovie <br>
+　　　|____DoFilm.jsp <br>
+　　　     |____Film.jsp <br>
+　　　          |____upload.jsp <br>
+　　　               |____HandleUpload.java <br>
+　　　     |____AdminFindBook.jsp <br>
+　　　     |____BlackFilm.jsp <br>
+　　　     |____AdminBookByPage.tag
+　　　          |____ModifyFilm.jsp <br>
+　　　               |____ToModifyFilm.jsp <br>
+　　　               |____upload.jsp <br>
+　　　                    |____HandleUpload.java <br>
+　　　          |____DoMessage.jsp <br>
+　　　          |____BlackFilm.jsp <br>
+|____managenews <br>
+　　　|____DoArticle.jsp <br>
+　　　　　　|____Article.jsp <br>
+　　　          |____upload.jsp <br>
+　　　　　　|____AdminArticleByPage.tag <br>
+　　　　　     　|____ShowArticle.jsp <br>
+　　　　     　　|____ModifyArticle.jsp <br>
+　　　               |____ToModifyArticle.jsp <br>
+　　　               |____upload.jsp <br>
+　　　                    |____HandleUpload.java <br>
+　　　               |____bian.jsp <br>
+　　　                    |____write.jsp <br>
+                              |____WriteFile.java
+                              |____UploadFile.java
+　　　                    |____yulan.jsp <br>
+　　　　     　　|____BlackArticle.jsp <br>
+　　　　　　|____BlackArticle.jsp <br>
+|____manageuser <br>
+　　　|____DoUser.jsp <br>
+　　　　　　|____BlackList.jsp <br>
+　　　　　　|____AdminUserByPage.tag <br>
