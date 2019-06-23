@@ -20,7 +20,7 @@
 	- 8.1 [代码规范](documents/coding-rules.md)
 	- 8.2 [REST API 设计规范](documents/REST-API.md)
 	- 8.3 [架构设计、详细设计（BCE方法）到应用程序框架映射指南](documents/BCE.md)
-	- 8.4 [物理架构云上部署 dock-compose.yml 文件编写与使用(容器编排)](documents/8.4.md)
+	- 8.4 [部署说明](documents/8.4.md)
 9. 成品展示
     - 9.1 [用户操作演示短视频](http://player.youku.com/embed/XNDIxOTYwODE4OA==)
     - 9.2 [管理员操作演示短视频](http://player.youku.com/embed/XNDIxOTYwODc2OA==)
