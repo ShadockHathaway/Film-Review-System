@@ -29,6 +29,7 @@ X1. [Meet Records](documents/meet_records.md)
 
 X2. Tech/Work Report
   - [15331230 - JSP学习笔记](https://blog.csdn.net/QingJiuYou/article/details/93414838)
+  - [15331230 - 影评系统的机遇和挑战](https://blog.csdn.net/QingJiuYou/article/details/93423779)
 
 X3. Final Report
   - [15331230 - 课程总结](documents/Final_Report.md)
