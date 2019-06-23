@@ -11,7 +11,9 @@
 #### 1）解决方案概要
 
 使用jsp中的session定位当前操作。JSP利用servlet提供的HttpSession接口来识别一个用户，存储这个用户的所有访问信息。
+```js
 <%@ page session="false" %>
+```
 
 #### 2）因素
 
