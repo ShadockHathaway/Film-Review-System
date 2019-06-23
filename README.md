@@ -32,3 +32,5 @@ X2. Tech/Work Report
 
 X3. Final Report
   - [15331230 - 课程总结](documents/Final_Report.md)
+  
+X4. [KANBAN](https://github.com/ShadockHathaway/Film-Review-System/projects)
