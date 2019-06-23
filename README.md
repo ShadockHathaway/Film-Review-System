@@ -28,24 +28,7 @@
 X1. [Meet Records](documents/meet_records.md)
 
 X2. Tech/Work Report
-  - [15331365 - Git恢复之前版本的两种方法reset、revert（图文详解）](https://blog.csdn.net/yxlshk/article/details/79944535)
-  - [15331169 - 用例建模小结](https://humanlee1011.github.io/2018/04/14/usecase/#)
-  - [15331274 - 在Vue项目中使用Vuex](https://blog.csdn.net/shujh_sysu/article/details/79947418)
-  - [15331446 - 小程序原型搭建](https://blog.csdn.net/crystal_zhuyupei/article/details/79948647)
-  - [15331436 - axios入坑指北](https://blog.zyuco.com/2018/04/08/axios%E5%85%A5%E5%9D%91%E6%8C%87%E5%8C%97/)
-  - [15331435 - 使用Travis进行持续集成（js）](https://blog.andiedie.cn/2018/04/04/%E4%BD%BF%E7%94%A8Travis%E8%BF%9B%E8%A1%8C%E6%8C%81%E7%BB%AD%E9%9B%86%E6%88%90/)
-  - [15331432 - 初为产品经理的心理障碍](https://blog.csdn.net/qq_33559972/article/details/79934411)
-  - [15331432 - 交互设计那些小纠结](https://blog.csdn.net/qq_33559972/article/details/80877316)
-  - [15331169 - Jmeter测试详记](https://humanlee1011.github.io/2018/07/07/Jmeter%E6%B5%8B%E8%AF%95%E8%AF%A6%E8%AE%B0/)
+  - [15331230 - JSP学习笔记](https://blog.csdn.net/QingJiuYou/article/details/93414838)
 
 X3. Final Report
-  - [团队成员自我总结](documents/Final_Report.md#团队成员自我总结)
-  - [PSP-2.1统计表](documents/Final_Report.md#psp-21统计表)
-  - [Git统计报告](documents/Final_Report.md#git统计报告)
-  - [劳苦清单](documents/Final_Report.md#劳苦清单)
-  - 团队成员相关博客清单见X2
-
-XX. 建模练习
-  - XX.1 [奇妙清单业务文档](ModelingExercise/业务文档.md)
-  - XX.2 [建模要求](ModelingExercise/README.md#建模要求)
-  - XX.3 [建模者答案与评价](ModelingExercise/README.md#建模者答案与评价)
+  - [15331230 - 课程总结](documents/Final_Report.md)
