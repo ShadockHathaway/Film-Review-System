@@ -29,7 +29,7 @@
 　　　　　　|____FindBook.jsp <br>
 　　　　　　|____LookBookAbstract.jsp <br>
 　　　　　     　|____SubmitMessage.jsp <br>
-　　　　     　　|____ShowMessage.tag <br>
+　　　　　     　|____ShowMessage.tag <br>
 　　　　　　|____LookPurchase.jsp <br>
 　　　　　　|____ShowBookByPage.tag <br>
 |____newscenter <br>
@@ -55,7 +55,7 @@
 　　　               |____HandleUpload.java <br>
 　　　     |____AdminFindBook.jsp <br>
 　　　     |____BlackFilm.jsp <br>
-　　　     |____AdminBookByPage.tag
+　　　     |____AdminBookByPage.tag <br>
 　　　          |____ModifyFilm.jsp <br>
 　　　               |____ToModifyFilm.jsp <br>
 　　　               |____upload.jsp <br>
@@ -74,8 +74,8 @@
 　　　                    |____HandleUpload.java <br>
 　　　               |____bian.jsp <br>
 　　　                    |____write.jsp <br>
-                              |____WriteFile.java
-                              |____UploadFile.java
+                              |____WriteFile.java <br>
+                              |____UploadFile.java <br>
 　　　                    |____yulan.jsp <br>
 　　　　     　　|____BlackArticle.jsp <br>
 　　　　　　|____BlackArticle.jsp <br>
