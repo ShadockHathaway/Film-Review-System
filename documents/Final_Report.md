@@ -38,5 +38,5 @@
 
 ### 博客清单
 
-[JSP学习笔记](https://blog.csdn.net/QingJiuYou/article/details/93414838)
-[影评系统的机遇与挑战](https://blog.csdn.net/QingJiuYou/article/details/93423779)
+- [JSP学习笔记](https://blog.csdn.net/QingJiuYou/article/details/93414838)
+- [影评系统的机遇与挑战](https://blog.csdn.net/QingJiuYou/article/details/93423779)
