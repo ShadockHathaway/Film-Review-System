@@ -44,3 +44,11 @@
 - public void setMaxInactiveInterval(int interval)
 用来指定时间，以秒为单位，servlet容器将会在这段时间内保持会话有效
 
+#### 4）动机
+
+如果不能准确识别用户和用户操作，系统将会陷入混乱。
+
+### 3、逻辑视图
+
+
+### 4、物理视图
