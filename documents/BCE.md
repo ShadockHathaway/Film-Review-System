@@ -18,6 +18,7 @@
 
 #### 1）用户端
 
+```
 |____index <br>
 　　　|____index.jsp <br>
 |____login <br>
@@ -43,9 +44,11 @@
 　　　　　　|____LookMessage.jsp <br>
 　　　　　　|____ModifyRegister.jsp <br>
 　　　　　　|____ModifyPassword.jsp <br>
+```
 
 #### 2）管理员端
 
+```
 |____admin <br>
 　　　|____admin.jsp <br>
 |____managemovie <br>
@@ -83,3 +86,4 @@
 　　　|____DoUser.jsp <br>
 　　　　　　|____BlackList.jsp <br>
 　　　　　　|____AdminUserByPage.tag <br>
+```
