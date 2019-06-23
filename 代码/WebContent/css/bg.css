@@ -1,0 +1,14 @@
+#bg {
+	background-color: white;
+	width:800px;
+	margin:0 auto;
+	color:#000000;
+}
+#bga {
+	background-color: white;
+	width:700px;
+	margin:10px auto;
+	padding-top:30px;
+	padding-bottom:30px;
+	color:#000000;
+}

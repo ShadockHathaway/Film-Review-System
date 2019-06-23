@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+.form_con{
+width: 500px;
+background:#f2f2f2;
+margin: 0 auto;
+padding: 20px;
+color: black;
+}
+.form_con label{
+width: 120px;
+text-align: right;
+float: left;
+}
+.form_con h3{
+margin: 0px;
+border-bottom: 1px solid #ddd;
+font-size: 22px;
+line-height: 50px;
+font-weight:bolder;
+}
+.input_text{
+width: 240px;
+height: 24px;
+border: 0;
+outline: none;
+}
+.input_text2{
+width: 240px;
+height: 100px;
+}
+.input_select{
+width: 120px;
+height: 24px;
+}
+.m180{
+width: 60px;
+height: 24px;
+}
+.leftss{
+text-align: left;
+}

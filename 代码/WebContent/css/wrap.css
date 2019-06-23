@@ -1,0 +1,29 @@
+.wrap {
+    margin: 0 auto;
+    width: 56.25em;
+    background-color: #F0F0F0;
+    text-align:left;
+}
+#sss {
+	color:#66CDAA;
+}
+.mes-board {
+    margin: 1.875em 0;
+    border: 1px solid #aaa;
+    padding: 0 .7em;
+    background-color: #F0F0F0;
+}
+.mes-board li { padding: .7em 0; }
+.mes-board li + li { border-top: 1px dashed #0000ff; }
+.mes-board h1 {
+    display: inline;
+    margin-right: 2px;
+    font-weight: 800;
+    font-size: 16px;
+    color: #990000;
+}
+.mes-board small { color: #999; }
+.mes-board p {
+    padding: 1em 0;
+    color: #400000;
+}

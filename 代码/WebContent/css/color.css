@@ -1,0 +1,43 @@
+@charset "UTF-8";
+body {
+	color:#fb5;
+	background-color:#334;
+}
+header {
+	color:#ec8;
+	background-color:#334;
+	border-color:#667;
+}
+header nav {
+	color:#455;
+	background-color:#789;
+	border-color:#667;
+}
+article {
+	color:#fb5;
+	background-color:#edc;
+	border-color:#667;
+}
+header nav ul {
+	border-color:#99a;
+}
+header nav a:link,header nav a:visited {
+	color:#eef;
+	background-color:transparent;
+	border-color:#99a;
+}
+header nav a:hover {
+	color:#445;
+	background-color:#eb6;
+}
+header nav a:active {
+	color:#667;
+	background-color:#ec8;
+}
+article img {
+	border-color:#ba9;
+	outline-color:#dcb;
+}
+#imagegallery a {
+	background-color:transparent;
+}

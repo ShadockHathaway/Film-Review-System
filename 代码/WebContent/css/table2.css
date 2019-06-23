@@ -1,0 +1,44 @@
+@charset "UTF-8";
+table {
+	width:400px;
+	margin:15px 0;
+	border:0;
+}
+#a {
+	background-color:#66CDAA;
+	text-align:right;
+	color:#FFFFFF;
+	height:50px;
+	font-size:16px;
+	font-weight:bolder;
+	width:70px;
+}
+h3 {
+	font-weight:bolder;
+	color:black;
+}
+#aiao {
+	background-color:#FFFFFF;
+	width:400px;
+	padding-top:5px;
+}
+#b {
+	background-color:#FFFFFF;
+	text-align:left;
+	color:black;
+	font-size:12px;
+	font-weight:bolder;
+}
+td {
+	font-size:0.95em;
+	text-align:left;
+	padding:4px;
+	border-collapse:collapse;
+}
+td {
+	border: 1px solid #a6e28f;
+	border-width:1px 0 1px 0
+}
+tr {
+	border: 1px solid #a6e28f;
+}
